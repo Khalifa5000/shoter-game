@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* Prevents scrollbars from appearing */
+    height: 100%;
+    /* Ensures the body takes full viewport height */
+    background-color: black;
+}
+
+canvas {
+    display: block;
+    /* This removes any inline spacing */
+}
